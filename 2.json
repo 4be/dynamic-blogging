@@ -1,0 +1,15 @@
+{
+  "transactionId": "11",
+  "transactionSource": "mobile",
+  "customer_id": "0001_TES",
+  "nik": "",
+  "threshold": 6,
+  "template": "",
+  "type": "Face",
+  "position": "F",
+  "user_id": "",
+  "password": "",
+  "ip": "",
+  "method_id": "CALL_FR",
+  "image": ""
+}

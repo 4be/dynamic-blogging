@@ -1,0 +1,8 @@
+/checkout
+ /getDepositBalance
+ /getOrderDetail
+ /getOrderList
+ /getProductList
+ /inquiry
+ /productListDeals
+ /requestToken

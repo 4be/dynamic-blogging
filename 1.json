@@ -1,0 +1,15 @@
+{
+  "transactionId": "11",
+  "transactionSource": "mobile",
+  "customer_id": "0001_TES",
+  "nik": "MjJmYTFhMWQwOGEwZTM4OTA4NWRjOGQ5YzgyYjM2ODEzNGQ0MmQ0OTI0MTgxOWI1MzkzMmYwNjRiNzQwYjIxMw==",
+  "treshold": "6",
+  "template": "",
+  "type": "FACE",
+  "position": "F",
+  "user_id": "MTExMzM0YzZjODgxZWRkNzA1MmU0YjhjMjczYzc0ZjUxN2EwMWM0MTliMjYyNWE2YzlhYzU5OGFkMGJhNmVlYg==",
+  "password": "ZTg2YWI3MzY4MTY0MjFkMzk1OTYzNzViMjdkN2QxZjcxZWU5ZTkxYzFhZmE1MDk0M2I3OWQyN2FkYTQ5N2U0Ng==",
+  "ip": "10.161.11.0",
+  "method_id": "CALL_FR",
+  "image": "/9j/4AAQSkZJRgABAQEAYABgAAD/4TDKRXhp"
+}

@@ -1,0 +1,167 @@
+{
+  "id": "FmF5UWtqcTQtUk5LWGREeXFvSnJBZ2cgZUlyWVF5ZFBRNU9HNUZiSU9kb0FodzoxMzA5NzQ5Njg=",
+  "rawResponse": {
+    "took": 8,
+    "timed_out": false,
+    "_shards": {
+      "total": 48,
+      "successful": 48,
+      "skipped": 47,
+      "failed": 0
+    },
+    "hits": {
+      "max_score": null,
+      "hits": [
+        {
+          "_index": "apigw-transactionalevents-000048",
+          "_id": "eNVi0YEBQrjkkxsRT8fh",
+          "_version": 1,
+          "_score": null,
+          "_ignored": ["resPayload.keyword"],
+          "fields": {
+            "nativeURL.keyword": [""],
+            "apiName": ["saktilinkVA"],
+            "eventType.keyword": ["Transactional"],
+            "sourceGatewayNode": ["10.21.13.106"],
+            "responseHeaders.Accept": ["image/gif, */*"],
+            "responseCode.keyword": ["200"],
+            "nativeResponsePayload.keyword": [""],
+            "requestHeaders.x-Gateway-APIKey.keyword": ["**************"],
+            "responseHeaders.Content-Type": ["application/json"],
+            "responseCode": ["200"],
+            "sourceGateway.keyword": ["APIGateway"],
+            "apiId.keyword": ["b1253625-fcd3-4eb7-b060-ae198fd36b14"],
+            "responseHeaders.Host": ["api.banksinarmas.com"],
+            "apiVersion": ["v1.0"],
+            "requestHeaders.X-dynaTrace": [
+              "FW4;-1170851609;1;1800269451;183285351;0;1346657104;518;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "responseHeaders.Authorization.keyword": ["**************"],
+            "errorOrigin": ["APIGATEWAY"],
+            "totalDataSize": [359],
+            "apiVersion.keyword": ["v1.0"],
+            "nativeResponsePayload": [""],
+            "nativeRequestPayload": [""],
+            "requestHeaders.X-dynaTrace.keyword": [
+              "FW4;-1170851609;1;1800269451;183285351;0;1346657104;518;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "responseHeaders.Host.keyword": ["api.banksinarmas.com"],
+            "applicationIp": ["10.21.13.25"],
+            "apiName.keyword": ["saktilinkVA"],
+            "responseHeaders.User-Agent": ["Mozilla/4.0 [en] (WinNT; I)"],
+            "httpMethod.keyword": ["post"],
+            "responseHeaders.User-Agent.keyword": [
+              "Mozilla/4.0 [en] (WinNT; I)"
+            ],
+            "totalTime": [3],
+            "responseHeaders.Content-Length": ["72"],
+            "responseHeaders.X-dynaTrace.keyword": [
+              "FW4;-1170851609;1;1800269451;183285351;0;1346657104;518;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "eventType": ["Transactional"],
+            "creationDate": ["2022-07-06T02:41:30.025Z"],
+            "requestHeaders.Accept.keyword": ["image/gif, */*"],
+            "errorOrigin.keyword": ["APIGATEWAY"],
+            "responseHeaders.traceparent.keyword": [
+              "00-8440bc1fda4bdf7b27829ed125bc9916-09f9e84b6f14a446-01"
+            ],
+            "responseHeaders.tracestate.keyword": [
+              "50445b50-ba3638e7@dt=fw4;1;6b4dee8b;aecb667;0;0;0;206;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "applicationId.keyword": ["0c20ca23-817d-4630-9b69-cbb643dd8edc"],
+            "requestHeaders.traceparent.keyword": [
+              "00-8440bc1fda4bdf7b27829ed125bc9916-09f9e84b6f14a446-01"
+            ],
+            "responseHeaders.Authorization": ["**************"],
+            "applicationId": ["0c20ca23-817d-4630-9b69-cbb643dd8edc"],
+            "requestHeaders.Content-Type.keyword": ["application/json"],
+            "operationName.keyword": ["/inquiryVA"],
+            "status": ["FAILURE"],
+            "nativeURL": [""],
+            "nativeHttpMethod": [""],
+            "responseHeaders.traceparent": [
+              "00-8440bc1fda4bdf7b27829ed125bc9916-09f9e84b6f14a446-01"
+            ],
+            "sourceGatewayNode.keyword": ["10.21.13.106"],
+            "status.keyword": ["FAILURE"],
+            "httpMethod": ["post"],
+            "responseHeaders.access_token.keyword": [""],
+            "responseHeaders.Accept.keyword": ["image/gif, */*"],
+            "requestHeaders.Content-Length.keyword": ["72"],
+            "responseHeaders.Content-Length.keyword": ["72"],
+            "responseHeaders.access_token": [""],
+            "requestHeaders.x-Gateway-APIKey": ["**************"],
+            "requestHeaders.Content-Length": ["72"],
+            "requestHeaders.Content-Type": ["application/json"],
+            "responseHeaders.Content-Type.keyword": ["application/json"],
+            "responseHeaders.tracestate": [
+              "50445b50-ba3638e7@dt=fw4;1;6b4dee8b;aecb667;0;0;0;206;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "applicationName.keyword": ["SOA"],
+            "responseHeaders.X-dynaTrace": [
+              "FW4;-1170851609;1;1800269451;183285351;0;1346657104;518;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "nativeRequestPayload.keyword": [""],
+            "providerTime": [0],
+            "isCallbackRequest": [false],
+            "apiId": ["b1253625-fcd3-4eb7-b060-ae198fd36b14"],
+            "applicationName": ["SOA"],
+            "requestHeaders.User-Agent.keyword": [
+              "Mozilla/4.0 [en] (WinNT; I)"
+            ],
+            "resPayload": [
+              "{\"Exception\":\"API Gateway encountered an error. Error Message:  Downtime exception:  Not able to reach end point.. Request Details: Service - saktilinkVA, Operation - /inquiryVA, Invocation Time:9:41:30 AM, Date:Jul 6, 2022,  Client IP - 10.21.13.25, User - Default and Application:SOA\"}"
+            ],
+            "requestHeaders.tracestate.keyword": [
+              "50445b50-ba3638e7@dt=fw4;1;6b4dee8b;aecb667;0;0;0;206;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "operationName": ["/inquiryVA"],
+            "requestHeaders.tracestate": [
+              "50445b50-ba3638e7@dt=fw4;1;6b4dee8b;aecb667;0;0;0;206;d11c;2h01;3h6b4dee8b;4h0aecb667;5h01"
+            ],
+            "requestHeaders.User-Agent": ["Mozilla/4.0 [en] (WinNT; I)"],
+            "requestHeaders.Host.keyword": ["api.banksinarmas.com"],
+            "requestHeaders.Accept": ["image/gif, */*"],
+            "requestHeaders.access_token.keyword": [""],
+            "applicationIp.keyword": ["10.21.13.25"],
+            "sourceGateway": ["APIGateway"],
+            "correlationID.keyword": [
+              "APIGW:c4e4380e-e2cd-4983-87ac-938e56d36f90:3418755"
+            ],
+            "requestHeaders.Host": ["api.banksinarmas.com"],
+            "reqPayload.keyword": [
+              "{\"virtualAccountNumber\":\"8286123456789123\",\"referenceId\":\"657075289898\"}"
+            ],
+            "correlationID": [
+              "APIGW:c4e4380e-e2cd-4983-87ac-938e56d36f90:3418755"
+            ],
+            "nativeHttpMethod.keyword": [""],
+            "requestHeaders.access_token": [""],
+            "requestHeaders.traceparent": [
+              "00-8440bc1fda4bdf7b27829ed125bc9916-09f9e84b6f14a446-01"
+            ],
+            "reqPayload": [
+              "{\"virtualAccountNumber\":\"8286123456789123\",\"referenceId\":\"657075289898\"}"
+            ]
+          },
+          "ignored_field_values": {
+            "resPayload.keyword": [
+              "{\"Exception\":\"API Gateway encountered an error. Error Message:  Downtime exception:  Not able to reach end point.. Request Details: Service - saktilinkVA, Operation - /inquiryVA, Invocation Time:9:41:30 AM, Date:Jul 6, 2022,  Client IP - 10.21.13.25, User - Default and Application:SOA\"}"
+            ]
+          },
+          "highlight": {
+            "apiName": [
+              "@kibana-highlighted-field@saktilinkVA@/kibana-highlighted-field@"
+            ]
+          },
+          "sort": [1657075290025]
+        }
+      ]
+    }
+  },
+  "isPartial": false,
+  "isRunning": false,
+  "total": 48,
+  "loaded": 48,
+  "isRestored": false
+}
